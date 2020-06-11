@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-@Library('mylib@master') _
+library 'mylib@master'
 pipeline {
     agent none
     stages {
