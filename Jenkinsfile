@@ -1,3 +1,4 @@
+#!/usr/bin/env groovy
 @Library('mylib@master') _
 pipeline {
     agent none
