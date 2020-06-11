@@ -7,8 +7,8 @@ pipeline {
             steps {
                 // log.info 'Starting' 
                 script { 
-                    log.info 'Starting'
-                    log.warning 'Nothing to do!'
+                    mylib.info 'Starting'
+                    mylib.warning 'Nothing to do!'
                 }
             }
         }
