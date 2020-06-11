@@ -1,4 +1,4 @@
-library 'mylib'
+library('my-shared-library') _
 pipeline {
     agent none
     stages {
