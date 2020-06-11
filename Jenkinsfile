@@ -1,4 +1,4 @@
-library 'mylib'
+@Library('mylib@master') _
 pipeline {
     agent none
     stages {
