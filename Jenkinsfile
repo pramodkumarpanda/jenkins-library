@@ -11,8 +11,8 @@ pipeline {
                     pwd
                     ls
                     """
-                    log 'Starting'
-                    log 'Nothing to do!'
+                    log.info 'Starting'
+              
                 }
             }
         }
