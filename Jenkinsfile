@@ -7,6 +7,10 @@ pipeline {
             steps {
                 // log.info 'Starting' 
                 script { 
+                    sh """
+                    pwd
+                    ls
+                    """
                     mylib.info 'Starting'
                     mylib.warning 'Nothing to do!'
                 }
