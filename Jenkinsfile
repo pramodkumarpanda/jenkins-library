@@ -11,8 +11,8 @@ pipeline {
                     pwd
                     ls
                     """
-                    mylib.info 'Starting'
-                    mylib.warning 'Nothing to do!'
+                    log.info 'Starting'
+                    log.warning 'Nothing to do!'
                 }
             }
         }
