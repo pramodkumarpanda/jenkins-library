@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 library identifier: 'mylib@master'
 pipeline {
-    agent none
+    agent any
     stages {
         stage ('Example') {
             steps {
