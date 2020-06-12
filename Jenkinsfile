@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-library 'mylib@master'
+library 'testlib'
 pipeline {
     agent any
     stages {
